@@ -20,6 +20,12 @@ public class Principal {
            
            System.out.println("Ingresar opción? ");
            opcion = sc.next();
+           
+           switch(opcion) {
+               case "1": MisMetodos.convertirFahrenheitCelsius(); break;
+               case "2": MisMetodos.convertirCelsiusFahrenheit(); break;
+               case "3": System.exit(0);
+           }
         }
         
     }
